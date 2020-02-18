@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.dc.bk.mapper.BkMenuMapper">
+
+    <select id="findPermissions" resultType="string">
+        select permission from bk_menus
+        where id in
+        <foreach collection="menuIds" open="(" close=")"
+                  separator="," item="item">
+            #{item}
+        </foreach>
+    </select>
+
+</mapper>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="879e8095-fba8-4999-b670-e3c442cf4355" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:mysql://127.0.0.1:3306/db_dingcan?serverTimezone=GMT%2B8&amp;useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true&amp;allowMultiQueries=true" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:mysql://127.0.0.1:3306/db_dingcan?serverTimezone=GMT%2B8&amp;useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true&amp;allowMultiQueries=true" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:mysql://127.0.0.1:3306/db_dingcan?serverTimezone=GMT%2B8&amp;useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true&amp;allowMultiQueries=true" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db_dingcan: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:mysql://127.0.0.1:3306/db_dingcan?serverTimezone=GMT%2B8&amp;useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true&amp;allowMultiQueries=true" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db_dingcan: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="bk_users: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowGroupBy>Package</toolWindowGroupBy>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Java\mavenrepo\repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\ideaworkspace\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProjectId" id="1TXqBosys7dWQl298iaxMxGciVW" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/ideaworkspace/workspace/jt" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\ideaworkspace\dc\dc-goods\src\main\resources\mybatis\mappers" />
+      <recent name="D:\ideaworkspace\workspace\dc\dc-goods\src\main\resources\mybatis\mappers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="dc-goods:9091" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dc-goods" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.dc.SpringBootRun" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="879e8095-fba8-4999-b670-e3c442cf4355" name="Default Changelist" comment="" />
+      <created>1573616654903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573616654903</updated>
+      <workItem from="1573616661925" duration="630000" />
+      <workItem from="1573646512799" duration="5173000" />
+      <workItem from="1573730720109" duration="6720000" />
+      <workItem from="1573778374838" duration="246000" />
+      <workItem from="1573819912813" duration="2757000" />
+      <workItem from="1573867597380" duration="10398000" />
+      <workItem from="1573964479761" duration="6470000" />
+      <workItem from="1573987809655" duration="91000" />
+      <workItem from="1574036858643" duration="1814000" />
+      <workItem from="1574078801128" duration="709000" />
+      <workItem from="1574123560997" duration="1359000" />
+      <workItem from="1574148870457" duration="140000" />
+      <workItem from="1574169593078" duration="688000" />
+      <workItem from="1574209478625" duration="33125000" />
+      <workItem from="1574391538645" duration="13737000" />
+      <workItem from="1574642526643" duration="1865000" />
+      <workItem from="1574728535360" duration="1898000" />
+      <workItem from="1575082664178" duration="6663000" />
+      <workItem from="1575101578452" duration="251000" />
+      <workItem from="1575246791112" duration="1139000" />
+      <workItem from="1575248527270" duration="1187000" />
+      <workItem from="1575262235666" duration="6707000" />
+      <workItem from="1575333125941" duration="1251000" />
+      <workItem from="1575464673604" duration="1210000" />
+      <workItem from="1575686442097" duration="8871000" />
+      <workItem from="1575880109386" duration="10219000" />
+      <workItem from="1575938184528" duration="1496000" />
+      <workItem from="1575967879358" duration="2649000" />
+      <workItem from="1576025424207" duration="3652000" />
+      <workItem from="1576131138966" duration="1445000" />
+      <workItem from="1576209095033" duration="1838000" />
+      <workItem from="1576237325983" duration="581000" />
+      <workItem from="1576285169444" duration="2753000" />
+      <workItem from="1576457111794" duration="3788000" />
+      <workItem from="1576547897134" duration="4660000" />
+      <workItem from="1576656331298" duration="2812000" />
+      <workItem from="1577856689400" duration="110000" />
+      <workItem from="1577857321798" duration="6344000" />
+      <workItem from="1577934744422" duration="1730000" />
+      <workItem from="1577954831114" duration="1295000" />
+      <workItem from="1577974530386" duration="372000" />
+      <workItem from="1578021744440" duration="2349000" />
+      <workItem from="1578051114559" duration="12334000" />
+      <workItem from="1578198155512" duration="1231000" />
+      <workItem from="1578217628919" duration="7695000" />
+      <workItem from="1578307074171" duration="5757000" />
+      <workItem from="1578536066257" duration="9302000" />
+      <workItem from="1578801999435" duration="3366000" />
+      <workItem from="1578926307722" duration="19482000" />
+      <workItem from="1579358869479" duration="12830000" />
+      <workItem from="1580202253719" duration="647000" />
+      <workItem from="1580719679191" duration="15317000" />
+      <workItem from="1580981360942" duration="992000" />
+      <workItem from="1581385542840" duration="1992000" />
+      <workItem from="1581559262485" duration="976000" />
+      <workItem from="1581560839648" duration="157000" />
+      <workItem from="1581561055980" duration="404000" />
+      <workItem from="1581561506828" duration="436000" />
+      <workItem from="1581561993391" duration="33037000" />
+      <workItem from="1581685499398" duration="11368000" />
+      <workItem from="1581776626596" duration="508000" />
+      <workItem from="1581777182173" duration="11195000" />
+      <workItem from="1581860715867" duration="10248000" />
+      <workItem from="1581988275028" duration="1141000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dc-goods/src/main/java/top/dc/controller/FileController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

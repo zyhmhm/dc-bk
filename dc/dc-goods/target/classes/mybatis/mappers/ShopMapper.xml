@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.dc.mapper.ShopMapper">
+
+    <sql id="queryByName">
+        <where>
+            <if test="shopName!=null and shopName!=''">
+                shop_name like concat("%",#{shopName},"%")
+            </if>
+        </where>
+    </sql>
+
+    <select id="findShopByPage" resultType="shop">
+        select * from t_shop
+        <include refid="queryByName"/>
+        order by update_time desc
+        limit #{startIndex},#{pageSize}
+    </select>
+
+    <select id="findShopTotal" resultType="int">
+        select count(*) from t_shop
+        <include refid="queryByName"/>
+    </select>
+
+    <select id="findName" resultType="string">
+        select shop_name from t_shop where id =#{shop_id}
+    </select>
+
+</mapper>

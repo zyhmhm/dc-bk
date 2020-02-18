@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.dc.bk.mapper.BkRoleMapper">
+
+    <sql id="queryByName">
+        <where>
+            <if test="roleName!=null and roleName!=''">
+                role_name like concat("%",#{roleName},"%")
+            </if>
+        </where>
+    </sql>
+
+    <select id="findRoleTotal" resultType="int">
+        select count(*) from bk_roles
+        <include refid="queryByName"/>
+    </select>
+
+    <select id="findRoleByPage" resultType="bkRole">
+        select * from bk_roles
+        <include refid="queryByName"/>
+        order by create_time desc
+        limit #{startIndex},#{pageSize}
+    </select>
+
+    <!--根据id查询角色信息包括基本信息和拥有的菜单信息-->
+    <resultMap id="bkRoleMenuVo" type="top.dc.bk.vo.BkRoleMenuVo">
+        <id property="id" column="id"/>
+        <!--collection元素一般应用于one2many关系查询,
+	              当前应用中就是基于角色id,在角色菜单关系中查询
+	              对象的菜单id,并将其存储到SysRoleMenuVo对象的menuIds属性上.
+	       -->
+        <collection property="menuIds" column="id" select="top.dc.bk.mapper.BkRoleMenuMapper.findMenuIdsByRoleId"/>
+
+    </resultMap>
+    <select id="findRoleById" resultMap="bkRoleMenuVo">
+        select id,role_name,note
+        from bk_roles
+        where id=#{id}
+    </select>
+
+</mapper>

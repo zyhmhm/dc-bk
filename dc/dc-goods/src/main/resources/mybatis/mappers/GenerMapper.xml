@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.dc.mapper.GenerMapper">
+
+    <resultMap id="generPage" type="top.dc.vo.GenerPageVo">
+        <association property="shopName" column="shop_id" select="top.dc.mapper.ShopMapper.findName"/>
+    </resultMap>
+    
+    <select id="getGenerByPage" resultMap="generPage">
+        select id,gener_name,shop_id,create_time,update_time from t_gener
+        order by shop_id desc
+        limit #{startIndex},#{pageSize}
+    </select>
+
+</mapper>

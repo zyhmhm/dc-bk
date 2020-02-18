@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.dc.bk.mapper.BkDeptMapper">
+
+    <sql id="queryByName">
+        <where>
+            <if test="deptName!=null and deptName!=''">
+                dept_name like concat("%",#{deptName},"%")
+            </if>
+        </where>
+    </sql>
+
+    <select id="findDeptTotal" resultType="int">
+        select count(*) from bk_depts
+        <include refid="queryByName"/>
+    </select>
+
+    <select id="findDeptByPage" resultType="bkDept">
+        select * from bk_depts
+        <include refid="queryByName"/>
+        order by create_time desc
+        limit #{startIndex},#{pageSize}
+    </select>
+
+</mapper>

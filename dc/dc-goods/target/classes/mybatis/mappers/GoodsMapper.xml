@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.dc.mapper.GoodsMapper">
+    <sql id="queryByName">
+        <where>
+            <if test="goodsName!=null and goodsName!=''">
+                goods_name like concat("%",#{goodsName},"%")
+            </if>
+        </where>
+    </sql>
+    <select id="findGoodsByPage" resultType="goods">
+        select * from t_goods
+        <include refid="queryByName"/>
+        order by update_time desc
+        limit #{startIndex},#{pageSize}
+    </select>
+
+    <select id="findGoodsTotal" resultType="int">
+        select count(*) from t_goods
+        <include refid="queryByName"/>
+    </select>
+
+
+
+</mapper>
